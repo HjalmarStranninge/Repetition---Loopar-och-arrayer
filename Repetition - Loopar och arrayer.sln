@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repetition - Loopar och arrayer", "Repetition - Loopar och arrayer\Repetition - Loopar och arrayer.csproj", "{0A06A45A-35A2-4E55-818F-9AE2AB99E5BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A06A45A-35A2-4E55-818F-9AE2AB99E5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A06A45A-35A2-4E55-818F-9AE2AB99E5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A06A45A-35A2-4E55-818F-9AE2AB99E5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A06A45A-35A2-4E55-818F-9AE2AB99E5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C1AB7BE-DE86-4057-8A21-8F06BB64FB1E}
+	EndGlobalSection
+EndGlobal
