@@ -6,6 +6,7 @@
         {
 
             int[] intArray = { 5, 12, 423, 66, 3, 11 };
+
             Console.WriteLine($"The lowest number in the array is {LowestNumber(intArray)}");
 
             Console.WriteLine($"The highest number in the array is {HighestNumber(intArray)}");
@@ -13,12 +14,14 @@
             Console.WriteLine($"The average value of the array is {AverageNumber(intArray)}");
 
             SortIntArray(intArray);
+
             foreach (int i in intArray)
             {
                 Console.Write($"{i}, ");
             }
-
         }
+
+
         public static int LowestNumber(int[] arr)
         {
         int lowestNumber = arr[0];
@@ -31,6 +34,7 @@
             }
             return lowestNumber;
         }
+
         public static int HighestNumber(int[] arr)
         {
             int highestNumber = arr[0];
@@ -66,16 +70,13 @@
                     {
                         int swap = arr[j-1];
                         arr[j-1] = arr[j];
-                        arr[j] = swap;
-                        
+                        arr[j] = swap;                       
                     }                   
                 } 
             }
             sortedArray = arr;
             return sortedArray;
         }
-
-
     }
 }
 
